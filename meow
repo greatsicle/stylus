@@ -1,0 +1,149 @@
+/* ==UserStyle==
+@name           www.meowplayground.com/game - May 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.meowplayground.com/game") {
+    /* Insert code here... */
+}
+body {
+    padding-right: 0px !important;
+    background: #3d48ac00;
+    background-image: url(https://art.ngfiles.com/images/2023000/2023807_snow8bits_pixel-vaporwave-wallpaper.png?f1629318089);
+    content: "";
+    width: 100%;
+    z-index: -1;
+    font-family: "Nunito", sans-serif;
+}
+body #bottom-holder {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    background: #717cdf00;
+    padding-top: 10px;
+    height: 45px;
+}
+#catpet-playground #header {
+    background: #717cdf00;
+    height: 75px;
+    margin-bottom: 5px;
+}
+body #stats-window {
+    padding: 5px 15px 0px 20px;
+    background-color: rgb(61 72 172 / 0%);
+    float: right;
+    max-width: 416px;
+    height: 75px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #fcfcfc;
+}
+body #chat-area #chat-history-window .message-holder.system {
+    background: #8dc63f;
+    background-image: linear-gradient(66deg, #fa982d, #d61c4a);
+    color: #fff;
+    white-space: pre-line;
+}
+.meow-btn.green {
+    padding: 0;
+    min-width: 105px;
+    height: 32px;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 4px;
+    border-image-source: linear-gradient(to top, #baca43, #dce675);
+    border-image-slice: 0;
+    background-image: linear-gradient(to top, #fa982d, #d61c4a), linear-gradient(to top, #fa982d, #d61c4a);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+.join-game-dd button {
+    background: #ef8354;
+    top: 13px;
+    width: 185px;
+    height: 49px;
+    border-radius: 24.5px;
+    border-style: solid;
+    border-width: 4px;
+    border-image-source: linear-gradient(to top, #e47946, #fca885);
+    border-image-slice: 0;
+    background-image: linear-gradient(to top, #fa982d, #d61c4a), linear-gradient(to top, #fa982d, #d61c4a);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    position: absolute;
+    left: 0;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: #fcfcfc;
+    padding: 0;
+    cursor: pointer;
+}
+.meow-btn.blue {
+    min-width: 105px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 4px;
+    border-image-source: linear-gradient(to top, #5585ed, #73a8fc);
+    border-image-slice: 0;
+    background-image: linear-gradient(to top, #fa982d, #d61c4a), linear-gradient(to top, #fa982d, #d61c4a);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fefefe;
+}
+.meow-btn.orange {
+    min-width: 105px;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 4px;
+    border-image-source: linear-gradient(to top, #e47946 0%, #fca885);
+    border-image-slice: 0;
+    background-image: linear-gradient(to top, #fa982d, #d61c4a), linear-gradient(to top, #fa982d 0%, #d61c4a);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: #fcfcfc;
+}
+.btn-success {
+    color: #fff;
+    background-color: #fa982d;
+    border-color: #d61c4a;
+}
+.btn-warning {
+    color: #212529;
+    background-color: #fa982d;
+    border-color: #d61c4a;
+    border-width: medium;
+}
